@@ -18,6 +18,8 @@ const App = () => {
 
       {/* Page Routing */}
       <Routes>
+        
+  <Route path="/" element={<Geofencing />} />
   <Route path="/Geofencing" element={<Geofencing />} />
   <Route path="/Chatbot" element={<Chatbot />} />
   <Route path="/Report" element={<Report />} />
